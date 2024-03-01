@@ -1,6 +1,13 @@
 # no .log files
 *.log
 
+# no .db files
+*.db
+
+# ignore all with directories target and bin
+target/*
+bin/*
+
 #but do track error.log, even though you're ignoring .log files above
 !error.log
 
